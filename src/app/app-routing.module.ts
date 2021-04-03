@@ -1,5 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+// import { HomePageModule } from './home-page/home-page/home-page.module';
+// import { NavPageModule } from './nav-page/nav-page.module';
+// import { AboutPageModule } from './about-page/about-page.module';
+// import { GroupTherapyPageModule } from './group-therapy-page/group-therapy-page.module';
+// import { ProgramPageModule } from './program-page/program-page.module';
+// import { FounderPageModule } from './founder-page/founder-page.module';
+// import { ContactsPageModule } from './contacts-page/contacts-page.module';
+
 
 const routes: Routes = [
     {
