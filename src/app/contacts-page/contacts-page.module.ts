@@ -7,10 +7,10 @@ import { ContactsPageRouting } from './contacts-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      ContactsPageRouting,
-      ContactsPageComponent
+      ContactsPageRouting
     ],
     declarations: [ContactsPageComponent]
   })
-  export class ContactsPageModule {}
+  export class ContactsPageModule {
+  }
   

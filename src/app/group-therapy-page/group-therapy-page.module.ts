@@ -7,8 +7,7 @@ import { GroupTherapyPageRouting } from './group-therapy-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      GroupTherapyPageRouting,
-      GroupTherapyPageComponent
+      GroupTherapyPageRouting
     ],
     declarations: [GroupTherapyPageComponent]
   })

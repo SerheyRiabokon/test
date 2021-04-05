@@ -7,8 +7,7 @@ import { ProgramPageRouting } from './program-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      ProgramPageRouting,
-      ProgramPageComponent
+      ProgramPageRouting
     ],
     declarations: [ProgramPageComponent]
   })

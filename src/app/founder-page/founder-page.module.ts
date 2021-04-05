@@ -7,8 +7,7 @@ import { FounderPageRouting } from './founder-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      FounderPageRouting,
-      FounderPageComponent
+      FounderPageRouting
     ],
     declarations: [FounderPageComponent]
   })

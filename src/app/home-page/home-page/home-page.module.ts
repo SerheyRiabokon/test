@@ -7,10 +7,10 @@ import { HomePageRouting } from './home-page-routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      HomePageRouting,
-      HomePageComponent
+      HomePageRouting
     ],
     declarations: [HomePageComponent]
   })
+  
   export class HomePageModule {}
   

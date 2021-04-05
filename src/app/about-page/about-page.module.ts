@@ -7,8 +7,7 @@ import { AboutPageRouting } from './about-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      AboutPageRouting,
-      AboutPageComponent
+      AboutPageRouting
     ],
     declarations: [AboutPageComponent]
   })

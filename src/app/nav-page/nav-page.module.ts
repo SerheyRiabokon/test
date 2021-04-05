@@ -7,8 +7,7 @@ import { NavPageRouting } from './nav-page.routing.module';
 @NgModule({
     imports: [
       CommonModule,
-      NavPageRouting,
-      NavPageComponent
+      NavPageRouting
     ],
     declarations: [NavPageComponent]
   })
