@@ -1,42 +1,42 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-// import { HomePageModule } from './home-page/home-page/home-page.module';
-// import { NavPageModule } from './nav-page/nav-page.module';
-// import { AboutPageModule } from './about-page/about-page.module';
-// import { GroupTherapyPageModule } from './group-therapy-page/group-therapy-page.module';
-// import { ProgramPageModule } from './program-page/program-page.module';
-// import { FounderPageModule } from './founder-page/founder-page.module';
-// import { ContactsPageModule } from './contacts-page/contacts-page.module';
+import { HomePageComponent } from './home-page/home-page/home-page.component';
+import { NavPageComponent } from './nav-page/nav-page.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { GroupTherapyPageComponent } from './group-therapy-page/group-therapy-page.component';
+import { ProgramPageComponent } from './program-page/program-page.component';
+import { FounderPageComponent } from './founder-page/founder-page.component';
+import { ContactsPageComponent } from './contacts-page/contacts-page.component';
 
 
 const routes: Routes = [
     {
       path: '',
-      loadChildren: () => import('./home-page/home-page/home-page.module').then(m => m.HomePageModule)
+      loadChildren: () => import('./home-page/home-page/home-page.component').then(m => m.HomePageComponent)
     },
     {
       path: 'nav-page',
-      loadChildren: () => import('./nav-page/nav-page.module').then( m => m.NavPageModule)
+      loadChildren: () => import('./nav-page/nav-page.component').then( m => m.NavPageComponent)
     },
     {
       path: 'about-page',
-      loadChildren: () => import('./about-page/about-page.module').then( m => m.AboutPageModule)
+      loadChildren: () => import('./about-page/about-page.component').then( m => m.AboutPageComponent)
     },
     {
       path: 'group-therapy-page',
-      loadChildren: () => import('./group-therapy-page/group-therapy-page.module').then( m => m.GroupTherapyPageModule)
+      loadChildren: () => import('./group-therapy-page/group-therapy-page.component').then( m => m.GroupTherapyPageComponent)
     },
     {
       path: 'program-page',
-      loadChildren: () => import('./program-page/program-page.module').then( m => m.ProgramPageModule)
+      loadChildren: () => import('./program-page/program-page.component').then( m => m.ProgramPageComponent)
     },
     {
       path: 'founder-page',
-      loadChildren: () => import('./founder-page/founder-page.module').then(m => m.FounderPageModule),
+      loadChildren: () => import('./founder-page/founder-page.component').then(m => m.FounderPageComponent),
     },
     {
       path: 'contacts-page',
-      loadChildren: () => import('./contacts-page/contacts-page.module').then( m => m.ContactsPageModule)
+      loadChildren: () => import('./contacts-page/contacts-page.component').then( m => m.ContactsPageComponent)
     },
   ];
 
